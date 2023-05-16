@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MoonController : MonoBehaviour {
-
+public class MoonController : MonoBehaviour
+{
     public float radius = 3.0f;
     public float speed = 0.016f;
 
     // Use this for initialization
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -22,9 +23,9 @@ public class MoonController : MonoBehaviour {
         return new Vector3(radius * Mathf.Sin(angle), 0, radius * Mathf.Cos(angle));
     }
 
-	void OnMouseDown() {
-		ZoomTarget.zoom = true;
-		ZoomTarget.target_tag = 5;
-	}
-
+    void OnMouseDown()
+    {
+        ZoomTarget.zoom = true;
+        ZoomTarget.target_tag = 4;
+    }
 }
