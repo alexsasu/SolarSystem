@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Revolution : MonoBehaviour {
+public class Revolution : MonoBehaviour
+{
     public float radius = 3.0f;
     public float speed = 0.1f;
 
