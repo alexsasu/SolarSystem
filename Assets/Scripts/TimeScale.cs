@@ -22,6 +22,5 @@ public class TimeScale : MonoBehaviour
         GUI.Label(new Rect(10, 100, 100, 30), new GUIContent(header), styleHeader);
         GUI.Label(new Rect(10, 120, 400, 400), new GUIContent(info));
 
-        //GUI.Label (new Rect (500, 20, 400, 20), new GUIContent("Made by Saatvik, Akshat, Aniket, Dee"));
     }
 }
