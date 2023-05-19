@@ -342,6 +342,7 @@
 "Assets/Scripts/MoonController.cs"
 "Assets/Scripts/NeptuneController.cs"
 "Assets/Scripts/OptionMenu.cs"
+"Assets/Scripts/QuitToMainMenu.cs"
 "Assets/Scripts/Revolution.cs"
 "Assets/Scripts/Rotation.cs"
 "Assets/Scripts/SaturnController.cs"
