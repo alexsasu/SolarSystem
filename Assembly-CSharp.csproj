@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\UranusController.cs" />
     <Compile Include="Assets\Scripts\Rotation.cs" />
     <Compile Include="Assets\Scripts\MarsController.cs" />
+    <Compile Include="Assets\Scripts\ViewerManager.cs" />
     <Compile Include="Assets\Scripts\NeptuneController.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\VenusController.cs" />
