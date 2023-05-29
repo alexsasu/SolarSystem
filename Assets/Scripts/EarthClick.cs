@@ -34,4 +34,5 @@ public class EarthClick : MonoBehaviour
             TimeScale.info = "Mass: 5.97 * 10^24 kg\nDiameter: 12756 km\nGravity: 9.8 m/s^2\nDistance from Sun: 149.6  * 10^6 km\n\nMoon:\nMass: 0.073 * 10^24 kg\nDiameter: 3475 km\nGravity: 1.6 m/s^2\nDistance from Sun: 0.384 * 10^6 km";
         }
     }
+
 }
