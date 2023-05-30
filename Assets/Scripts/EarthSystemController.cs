@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class EarthSystemController : MonoBehaviour
 {
-    public float radius = 30.0f;
-    public float speed = 0.5f;
+    public float radius = 60.0f;
+    public float speed = 0.1f;
     public float selfSpeed = 12.0f;
 
     private Transform Earth;
