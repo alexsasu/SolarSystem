@@ -15,11 +15,16 @@ The planet detail info is from [Planetary Fact Sheet](https://nssdc.gsfc.nasa.go
 ## Application Elements
 
 The application has the following features:
-* Solar system: Sun, Mercury, Venus, Earth & Moon, Jupiter, Saturn, Uranus, Neptune
+* Solar system: Sun, Mercury, Venus, Earth & Moon, Mars, Jupiter, Saturn, Uranus, Neptune
+* Asteroid belt: The application generates asteroids between Mars and Jupiter. Asteroids are spread out and rotated randomly but remain within the boundaries of its [torus](https://en.wikipedia.org/wiki/Torus) and in a circle-like fashion.
 * An interactive menu
 * Sliders for changing the dimensions of the planets and the Sun
 * Slider for speeding up or slowing down the planets' movement and the Sun's movement
-* Navigation with the W, A, S, D keys, as well as the Up and Down arrow keys
+* Navigation with the Mouse:
+  * Hold Mouse Wheel -> Pan
+  * Hold Left Shift + Hold Mouse Wheel -> Rotate
+  * Scroll Mouse Wheel -> Zoom
+  
 
 ## Application Showcase
 

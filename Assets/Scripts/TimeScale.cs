@@ -4,16 +4,17 @@ using System.Collections;
 public class TimeScale : MonoBehaviour
 {
     private float timeScale;
-    private float sizeScaleSun = 50;
+    
+    private float sizeScaleSun = 50f;
     private float sizeScaleMercury = 0.66F;
     private float sizeScaleVenus = 1.9F;
-    private float sizeScaleEarth = 2;
+    private float sizeScaleEarth = 2f;
     private float sizeScaleMoon = 0.2F;
-    private float sizeScaleMars = 1;
-    private float sizeScaleJupiter = 22;
-    private float sizeScaleSaturn = 18;
-    private float sizeScaleUranus = 8;
-    private float sizeScaleNeptune = 8;
+    private float sizeScaleMars = 1f;
+    private float sizeScaleJupiter = 22f;
+    private float sizeScaleSaturn = 18f;
+    private float sizeScaleUranus = 8f;
+    private float sizeScaleNeptune = 8f;
 
     public static string header = "Solar System";
     public static string info = "Mercury\nVenus\nEarth\nMars\nJupiter\nSaturn\nUranus\nNeptune";

@@ -7,7 +7,7 @@ public class UranusController : PlanetSketch
     // Use this for initialization
     void Start()
     {
-        radius = 162.0f;
+        radius = 225.0f;
         speed = 0.04f;
         header = "Uranus";
         info = "Mass: 86.8 * 10^24 kg\nDiameter: 51118 km\nGravity: 8.7 m/s^2\nDistance from Sun: 2867.0 * 10^6 km";
