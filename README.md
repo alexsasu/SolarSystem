@@ -10,7 +10,7 @@ The app features a rough simulation of our solar system.
 
 Part of the application's functionality is based on the [Solar-System-Unity3D](https://github.com/PatwinchIR/Solar-System-Unity3D) and [planet-ring-mesh](https://github.com/boardtobits/planet-ring-mesh) repositories.
 
-The planet detail info is from [Planetary Fact Sheet - Metric](https://nssdc.gsfc.nasa.gov/planetary/factsheet/). The texture files for the planets and the Sun are from [Solar Textures](https://www.solarsystemscope.com/textures/). The background picture is from GitHub user [off99555](https://github.com/off99555/Solar-System-Simulation/tree/master/Assets/SolarSystemAssets/Materials).
+The planet detail info is from [Planetary Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/). The texture files for the planets and the Sun are from [Solar System Scope](https://www.solarsystemscope.com/textures/). The background picture is from the GitHub user [off99555](https://github.com/off99555/Solar-System-Simulation/tree/master/Assets/SolarSystemAssets/Materials).
 
 ## Application Elements
 
