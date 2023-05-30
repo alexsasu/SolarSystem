@@ -1,33 +1,100 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: E:/Solar/SolarSystem/Packages/manifest.json
+    m_FilePath: C:/Users/Alex/OneDrive - unibuc.ro/Desktop/Diverse/GitHub/Repos/SolarSystem/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638210411047071118
-    m_Hash: 2326594130
+      ticks: 638210491699203491
+    m_Hash: 2133084578
   m_LockFileStatus:
-    m_FilePath: E:/Solar/SolarSystem/Packages/packages-lock.json
+    m_FilePath: C:/Users/Alex/OneDrive - unibuc.ro/Desktop/Diverse/GitHub/Repos/SolarSystem/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638210411047071118
-    m_Hash: 3253845627
+      ticks: 638210491893663607
+    m_Hash: 4135032277
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: E:/Solar/SolarSystem/Packages
+m_ProjectPath: C:/Users/Alex/OneDrive - unibuc.ro/Desktop/Diverse/GitHub/Repos/SolarSystem/Packages
 m_EditorVersion: 2022.2.6f1 (10bfa6201ced)
 m_ResolvedPackages:
+- packageId: com.unity.ai.navigation@1.1.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.1
+  source: 1
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.ai.navigation@1.1.1
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    compatible:
+    - 1.1.1
+    - 1.1.3
+    recommended: 1.1.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638023206030000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 68f64fce84ec1c6721cae1231d5cf4003494eb08
+    path: 
+  unityLifecycle:
+    version: 1.1.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.cinemachine@2.9.7
   testable: 0
   isDirectDependency: 1
   version: 2.9.7
   source: 1
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.cinemachine@2.9.7
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.cinemachine@2.9.7
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -189,7 +256,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.18
   source: 1
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -276,7 +343,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -453,7 +520,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -523,7 +590,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -578,7 +645,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -632,7 +699,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -687,7 +754,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -742,7 +809,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -797,7 +864,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -856,7 +923,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -919,7 +986,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -975,7 +1042,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1030,7 +1097,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1085,7 +1152,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1140,7 +1207,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1195,7 +1262,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1250,7 +1317,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1309,7 +1376,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1364,7 +1431,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1427,7 +1494,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1485,7 +1552,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1540,7 +1607,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1607,7 +1674,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1662,7 +1729,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1725,7 +1792,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -1780,7 +1847,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -1843,7 +1910,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -1906,7 +1973,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -1969,7 +2036,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2048,7 +2115,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2107,7 +2174,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2174,7 +2241,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2243,7 +2310,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2298,7 +2365,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2365,7 +2432,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2424,7 +2491,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2478,7 +2545,6 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
-    - 1.3.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -2490,7 +2556,6 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
-    - 1.3.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -2545,7 +2610,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: E:\Solar\SolarSystem\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\Alex\OneDrive - unibuc.ro\Desktop\Diverse\GitHub\Repos\SolarSystem\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit

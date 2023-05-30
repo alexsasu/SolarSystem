@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SaturnController : MonoBehaviour
 {
-    public float radius = 60.0f;
+    public float radius = 130.0f;
     public float speed = 0.05f;
 
     //manual settings
