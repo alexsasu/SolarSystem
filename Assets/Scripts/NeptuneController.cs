@@ -7,7 +7,7 @@ public class NeptuneController : PlanetSketch
     // Use this for initialization
     void Start()
     {
-        radius = 180.0f;
+        radius = 265.0f;
         speed = 0.03f;
         header = "Neptune";
         info = "Mass: 102 * 10^24 kg\nDiameter: 49528 km\nGravity: 11.0 m/s^2\nDistance from Sun: 4515 * 10^6 km";
