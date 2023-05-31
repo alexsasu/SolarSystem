@@ -64,8 +64,8 @@
     <Compile Include="Assets\Scripts\MarsController.cs" />
     <Compile Include="Assets\Scripts\NeptuneController.cs" />
     <Compile Include="Assets\IndividualAsteroid.cs" />
-    <Compile Include="Assets\Scripts\OptionMenu.cs" />
     <Compile Include="Assets\Asteroids Pack\Assets\Scripts\RandomRotator.cs" />
+    <Compile Include="Assets\Scripts\OptionMenu.cs" />
     <Compile Include="Assets\Scripts\EarthClick.cs" />
     <Compile Include="Assets\Scripts\ZoomTarget.cs" />
     <Compile Include="Assets\Scripts\JupiterController.cs" />

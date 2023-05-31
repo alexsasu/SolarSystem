@@ -2,35 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using UnityEngine;
+using UnityEngine.Analytics;
 
-public class SaturnController : MonoBehaviour
+public class SaturnController : PlanetSketch
 {
-    public float radius = 170.0f;
-    public float speed = 0.05f;
-
-    //manual settings
     [Range(3, 360)]
     public int segments = 3;
     public float innerRadius = 0.7f;
     public float thickness = 0.5f;
     public Material ringMat;
 
-    //cached references
     GameObject ring;
     Mesh ringMesh;
     MeshFilter ringMF;
     MeshRenderer ringMR;
 
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        this.transform.localPosition = GetPosition(Time.time * speed);
+        radius = 170.0f;
+        speed = 0.05f;
+        header = "Saturn";
+        info = "Mass: 568 * 10^24 kg\nDiameter: 120536 km\nGravity: 9.0 m/s^2\nDistance from Sun: 1432.0 * 10^6 km";
+        targetTag = 7;
     }
 
     void OnEnable()
@@ -51,36 +45,10 @@ public class SaturnController : MonoBehaviour
         BuildRingMesh();
     }
 
-    private Vector3 GetPosition(float angle)
-    {
-        return new Vector3(radius * Mathf.Sin(angle), 0, radius * Mathf.Cos(angle));
-    }
-
-    void OnMouseDown()
-    {
-        bool zoom = ZoomTarget.zoom;
-        if (zoom)
-        {
-            ZoomTarget.zoom = false;
-            ZoomTarget.target_tag = 0;
-            TimeScale.header = "Solar System";
-            TimeScale.info = "Mercury\nVenus\nEarth\nMars\nJupiter\nSaturn\nUranus\nNeptune";
-        }
-        else
-        {
-            ZoomTarget.zoom = true;
-            ZoomTarget.target_tag = 7;
-            TimeScale.header = "Saturn";
-            TimeScale.info = "Mass: 568 * 10^24 kg\nDiameter: 120536 km\nGravity: 9.0 m/s^2\nDistance from Sun: 1432.0 * 10^6 km";
-        }
-    }
-
     void SetUpRing()
     {
-        //check if ring is null and there are no children
         if (ring == null && transform.childCount == 0)
         {
-            //create ring object
             ring = new GameObject(name + "Ring");
             ring.transform.parent = transform;
             ring.transform.SetAsFirstSibling();
@@ -103,7 +71,6 @@ public class SaturnController : MonoBehaviour
 
     void BuildRingMesh()
     {
-        //build ring mesh
         Vector3[] vertices = new Vector3[(segments + 1) * 2 * 2];
         int[] triangles = new int[segments * 6 * 2];
         Vector2[] uv = new Vector2[(segments + 1) * 2 * 2];
@@ -135,16 +102,8 @@ public class SaturnController : MonoBehaviour
             }
         }
 
-        if (vertices.Length < ringMesh.vertices.Length)
-        {
-            ringMesh.triangles = triangles;
-            ringMesh.vertices = vertices;
-        }
-        else
-        {
-            ringMesh.vertices = vertices;
-            ringMesh.triangles = triangles;
-        }
+        ringMesh.vertices = vertices;
+        ringMesh.triangles = triangles;
         ringMesh.uv = uv;
         ringMesh.RecalculateNormals();
     }
